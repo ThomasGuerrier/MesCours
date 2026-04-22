@@ -110,7 +110,7 @@ h1
     margin: 15px;
     height: 50px;
     background-color: lightcyan;
-    overflow: auto; //scrollbar if content overflows
+    overflow: auto; /*scrollbar if content overflows */
 
 }
 div h1 {
