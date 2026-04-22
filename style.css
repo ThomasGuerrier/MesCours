@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face {
+    font-family: Marianne;
+    src: url('fonts/Typographie-Marianne-OTF/fontes-web/Marianne-Regular.woff') format('truetype');
+    src: url('fonts/Typographie-Marianne-OTF/fontes-web/Marianne-Bold.woff') format('truetype');
+    src: url('fonts/Typographie-Marianne-OTF/fontes-web/Marianne-Light.woff')  format('truetype');
+
+}
+h3
+{
+    font-family: Arial, sans-serif;
+    color: red; 
+    font-style: italic;
+    float: right;
+}
+body
+{
+    background-color: lightgrey;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+img
+{
+    border: 5px solid black;
+    border-radius: 10px;
+    position: static;
+    z-index: 1;
+}
+p
+{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    border: 2px solid blue;
+    margin-left: 50px;
+    padding-left: 20px;
+    word-spacing: 20px;
+}
+#para2
+{
+    background-color: lightyellow;
+    word-spacing: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+h4
+{
+    font-family: Verdana, sans-serif;
+    color: purple;
+    text-decoration: wavy underline;
+}
+h2
+{
+    font-family: Arial, sans-serif;
+    color: green;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+h1
+{
+    color: blue;
+    background-color: beige;
+    text-transform: uppercase;
+}
+.fas, .fab {
+    color: darkorange;
+    font-size: 48px;
+}
+.group {
+    margin: 20px;
+    padding: 15px;
+    border: 2px dashed gray;
+    display: inline-flex;
+}
+.head {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: navy;
+    margin-bottom: 10px;
+    position: relative;
+}
+.head .secondary {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: darkslategray;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+.head .tertiary {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+    position: sticky;
+    left: 200px;
+    bottom: 200px;
+}
+.block2 {
+    border: 3px dotted teal;
+    padding: 10px;
+    margin: 15px;
+    height: 50px;
+    background-color: lightcyan;
+    overflow: auto; //scrollbar if content overflows
+
+}
+div h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: maroon;
+    text-align: center;
+}
