@@ -8,7 +8,7 @@
 - **À améliorer** : Sémantique, accessibilité
 
 ### CSS
-- **Niveau** : Intermédiaire
+- **Niveau** : Débutant
 - **Maîtrise** : Sélecteurs, propriétés de base, Flexbox, Grid
 - **À améliorer** : Animations, responsive design avancé
 
